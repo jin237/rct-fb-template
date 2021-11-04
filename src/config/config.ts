@@ -1,3 +1,5 @@
+import firebase from "firebase";
+
 const config = {
     firebase: {
         apiKey: "AIzaSyCXTCIj2l0JQ9Npwx2hZJdvNv-0sRzdPn4",
@@ -9,5 +11,6 @@ const config = {
         appId: process.env.REACT_APP_FIREBASE_APP_ID
     }
 }
+
 
 export default config;
